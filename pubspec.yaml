@@ -1,0 +1,24 @@
+name: day_night_themed_switch
+description: Day and night themed custom switch widget with custom size support
+version: 1.0.0
+repository: https://github.com/hallysonh/day_night_themed_switch
+issue_tracker: https://github.com/hallysonh/day_night_themed_switch/issues
+screenshots:
+  - description: 'Switcher Disabled'
+    path: screenshots/day.png
+  - description: 'Switcher Enabled'
+    path: screenshots/night.png
+
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  mockito: ^5.4.0
